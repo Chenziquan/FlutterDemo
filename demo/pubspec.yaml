@@ -48,6 +48,7 @@ flutter:
 
   assets:
     - assets/ic_launcher.png
+    - images/ic_launcher.png
   fonts:
     - family: Raleway
       fonts:
