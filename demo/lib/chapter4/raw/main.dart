@@ -1,8 +1,13 @@
 import 'package:demo/chapter3/progress/progress_route.dart';
+import 'package:demo/chapter4/align/align.dart';
+import 'package:demo/chapter4/center/center.dart';
 import 'package:demo/chapter4/flex/flex_route.dart';
+import 'package:demo/chapter4/flow/flow.dart';
 import 'package:demo/chapter4/raw/column.dart';
 import 'package:demo/chapter4/raw/column_nested.dart';
 import 'package:demo/chapter4/raw/row.dart';
+import 'package:demo/chapter4/stack/stack.dart';
+import 'package:demo/chapter4/wrap/wrap.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -29,7 +34,7 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Flex'),
       ),
-      body: FlexRoute(),
+      body: CenterRoute(),
     );
   }
 }
